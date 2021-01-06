@@ -13,7 +13,7 @@
 # Raporlama
 Birini raporlamak için [Issues](https://github.com/gInterpol/gInterpol/issues)'den New Issue'yı seçin. Ordan Rapor'u seçin.
 <img src="https://cdn.discordapp.com/attachments/796121866287841310/796280420823728188/unknown.png" alt="Screenshot">
-Burdaki alanları belirtildiği bi doldurun, *en önemlisi SteamID64ü doğru yere koymanız* öbür türlü bot raporunuzu kapatır.
+Burdaki alanları belirtildiği bi doldurun, **en önemlisi SteamID64ü doğru yere koymanız** öbür türlü bot raporunuzu kapatır.
 
 # Kurulum
 `Yazıcaz bi durun`
