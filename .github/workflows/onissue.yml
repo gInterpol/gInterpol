@@ -23,7 +23,7 @@ jobs:
       - name: Add Criminal to the list
         run: npm run add ${{ github.event.issue.number }}
         env:
-          APIKEY: ${{ secrets.GITHUB_TOKEN  }}
+          APIKEY: ${{ secrets.APIKEY  }}
 
       - name: Commit
         uses: EndBug/add-and-commit@v4
