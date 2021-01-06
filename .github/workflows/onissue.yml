@@ -1,0 +1,37 @@
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  addSus:
+    if: ${{ github.event.label.name == 'kabul edildi' }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install Node v12
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
+      - name: Install dependencies
+        run: npm install
+      
+
+      - name: Add Criminal to the list
+        run: npm run add ${{ github.event.issue.number }}
+        env:
+          APIKEY: ${{ secrets.GITHUB_TOKEN  }}
+
+      - name: Commit
+        uses: EndBug/add-and-commit@v4
+        with:
+          add: 'list.json'
+          push: true
+          message: 'Suçlu eklendi'
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          author_name: github-actions[bot]
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}

@@ -1,0 +1,23 @@
+{
+  "name": "gInterpol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "add": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gInterpol/gInterpol.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gInterpol/gInterpol/issues"
+  },
+  "homepage": "https://github.com/gInterpol/gInterpol#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
