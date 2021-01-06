@@ -6,7 +6,7 @@ const issue_number = process.argv[2]
 
 const list = require("../list.json")
 
-fetch(`https:///repos/gInterpol/gInterpol/issues/${issue_number}`, {
+fetch(`https://api.github.com/repos/gInterpol/gInterpol/issues/${issue_number}`, {
      headers: {
           "Content-Type": "application/vnd.github+json"
      }
