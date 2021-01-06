@@ -11,9 +11,9 @@ module.exports = async function(issue) {
 
      const steamID64 = query[2]
 
-     const res = await fetch(`https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v2/?key=${process.env.APIKEY}&format=json&steamids=${steamID64}`).then(res => res.json())
+     const { response } = await fetch(`https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v2/?key=${process.env.APIKEY}&format=json&steamids=${steamID64}`).then(res => res.json())
 
-     if (!res.players.length) return
+     if (!response.players.length) return
 
      return steamID64
 }
