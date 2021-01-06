@@ -29,7 +29,7 @@ jobs:
         uses: EndBug/add-and-commit@v4
         with:
           add: 'list.json'
-          push: true
+          force: true
           message: 'Suçlu eklendi'
           author_email: 41898282+github-actions[bot]@users.noreply.github.com
           author_name: github-actions[bot]
