@@ -5,7 +5,7 @@
 <h5>Garry's Mod Türkiye Developer Platform'u tarafından</h5>
 <h1>gInterpol Projesi</h1>
 <p>
-     <a href="https://discord.gg/2yVax5H7GN"><img src="https://img.shields.io/discord/657676628746567803.svg" alt="Discord"></a>
+     <a href="https://discord.gg/cMt2ZVhhjY"><img src="https://img.shields.io/discord/796304786295095306.svg" alt="Discord"></a>
      <a href="https://github.com/gInterpol/gInterpol/blob/master/LICENSE"><img src="https://img.shields.io/github/license/gInterpol/gInterpol" alt="LICENSE"><a/>
 </p>
 </div>
