@@ -1,4 +1,4 @@
-const steamIDRegex = /<!-- SteamID64'ü alt satıra yaz -->\n(.*?)\n<!-- SteamID64'ü üst satıra yaz -->/gm
+const steamIDRegex = /<!-- SteamID64'ü alt satıra yaz -->(\n|\r\n)(.*?)(\n|\r\n)<!-- SteamID64'ü üst satıra yaz -->/gm
 
 
 /**
