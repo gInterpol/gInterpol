@@ -16,4 +16,4 @@ Birini raporlamak için [Issues](https://github.com/gInterpol/gInterpol/issues)'
 Burdaki alanları belirtildiği bi doldurun, **en önemlisi SteamID64ü doğru yere koymanız** öbür türlü bot raporunuzu kapatır.
 
 # Kurulum
-`Yazıcaz bi durun`
+Bu [repoda](https://github.com/gInterpol/gInterpol_server) kurulum dosyaları ve nasıl kurulduğunun açıklaması mevcut.
